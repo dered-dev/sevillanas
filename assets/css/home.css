@@ -1,0 +1,376 @@
+
+.ctn__slider__home{
+    width: 100%;
+    margin-top: 72px;
+}
+.ctn__slider__home .bx-wrapper{
+    border: none;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+.ctn__slider__home .bx-wrapper img{
+    max-width: 600px;
+    max-height: 550px;
+}
+.ctn__slider__home .inner__site{
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 650px;
+}
+.ctn__slider__home .wrap__text{
+    padding-right: 2rem;
+}
+
+.ctn__slider__home .slide__item {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    background-color: #c60969;
+}
+.ctn__slider__home .wrap__text p{
+    font-size: 2rem;
+    color: #EEE2EF;
+    font-weight: 400;
+}
+.ctn__slider__home .slide__item{
+    background-image: url('../img/icons/mask__triangle.png'), url('../img/icons/mask__flower.png');
+    background-size: 400px auto, 100px auto;
+    background-repeat: no-repeat;
+    background-position: 0 100%, 100% 0;
+}
+.ctn__slider__home .slide__item.blue__slide{
+    background-color: #0076B9;
+    background-image: url('../img/icons/mask__triangle__blue.png'), url('../img/icons/mask__flower__blue.png') ;
+}
+.ctn__slider__home .bx-wrapper .bx-pager{
+    padding-bottom: 2rem;
+    bottom: 0;
+}
+
+.slider__home .wrap__text .tit__slide{
+    font-size: 3rem;
+    color: #EEE2EF;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.7);
+    border-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background-color: #fff;
+    border: 2px solid #fff;
+    
+}
+
+
+
+.list__products{
+    width: 100%;
+    display: inline-block;
+    padding: 3rem 0;
+}
+.list__products .inner__site{
+    padding-left: 240px;
+    position: relative;
+}
+.list__products .title__list{
+    width: 210px;
+    padding: 3rem 1rem 2rem;
+    display: flex;
+    align-items: start;
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    background-color: #c60969;
+    color: #fff;
+    border-radius: 1rem 0 0 1rem;
+    bottom: 0;
+    top: 0;
+    text-align: left;
+    justify-content: center;
+    background-image: url('../img/icons/pinkdots.png');
+    background-repeat: repeat-x;
+    background-size: auto 1rem;
+    background-position: 0 0;
+}
+.list__products.sugarfree .title__list{
+    background-color: #0076B9;
+    background-image: url('../img/icons/bluedots.png');
+}
+
+.list__products .title__list strong{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.25em;
+    margin-bottom: 1rem;
+}
+
+.list__products .wrap__card{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1 0 400px;
+}
+
+.list__products.sugarfree .wrap__card .infoCard{
+    color: #0076B9;
+}
+
+.ctn__bnr__sugarfree{
+    background-color: #90DFE4;
+    background-image: url('../img/back__sugarfree.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 4rem 0;
+}
+.ctn__bnr__sugarfree{
+    color: #fff;
+}
+.ctn__bnr__sugarfree h3{
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: -4px 2px 0 #0076B9;
+}
+.ctn__bnr__sugarfree p{
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: -3px 3px 4px #0076B9;
+}
+
+.ctn__home__recipes{
+    padding: 4rem 2rem 0;
+    background-color: #F4F8FD;
+}
+.ctn__home__recipes .tit__recipes {
+    color: #c60969;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.ctn__home__recipes .go__recipes{
+    position: relative;
+    top: 20px;
+}
+
+.grid__instagram {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 4rem 0;
+}
+.grid__instagram h5{
+    font-size: 4rem;
+}
+.grid__instagram ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.grid__instagram ul li{
+    position: relative;
+}
+.grid__instagram ul li:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.8);
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .25s;
+}
+.grid__instagram ul a{
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-decoration: underline;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .25s;
+    line-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid__instagram ul li:hover:after,
+.grid__instagram ul li:hover a{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+@media screen and (max-width: 1024px){
+    .ctn__slider__home .inner__site{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        min-height: 550px;
+    }
+    .slider__home .wrap__text .tit__slide{
+        font-size: 2.5rem;
+    }
+    .ctn__slider__home .wrap__text p{
+        font-size: 1.5rem;
+    }
+    .ctn__slider__home .bx-wrapper img{
+        max-height: 500px;
+    }
+    .list__products .title__list strong{
+        font-size: 1.25rem;
+    }
+    .list__products{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .list__products .inner__site{
+        padding-left: 200px;
+    }
+    .list__products .title__list{
+        width: 180px;
+    }
+    .list__products .wrap__card{
+        min-height: 270px;
+    }
+    .wrap__card .top__imageCard{
+        padding: 1rem;
+        min-height: 184px;
+    }
+    .wrap__card .top__imageCard img{
+        max-width: 100%;
+    }
+    .ctn__bnr__sugarfree .inner__site{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .ctn__bnr__sugarfree h3{
+        font-size: 3rem;
+    }
+    .ctn__bnr__sugarfree p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 992px){
+    .ctn__slider__home .inner__site{
+        flex-direction: column-reverse;
+        padding-bottom: 3rem;
+    }
+    .ctn__slider__home .bx-wrapper img{
+        max-height: 350px;
+        margin-bottom: 2rem;
+    }
+    .ctn__slider__home .slide__item {
+        background-size: 200px auto, 50px auto;
+    }
+    .grid__instagram{
+        padding-bottom: 2rem;
+    }
+    .grid__instagram h5{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 640px){
+    .grid__instagram ul{
+        flex-wrap: wrap;
+    }
+    .grid__instagram ul li{
+        width: 50%;
+    }
+
+    .ctn__slider__home{
+        margin-top: 48px;
+    }
+    .ctn__slider__home .bx-wrapper img{
+        max-width: 100%;
+    }
+    .slider__home .wrap__text .tit__slide{
+        font-size: 2rem;
+    }
+    .ctn__slider__home .inner__site{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+    .ctn__slider__home .wrap__text{
+        padding-right: 0;
+    }
+    .ctn__slider__home .bx-wrapper .bx-pager{
+        text-align: right;
+        padding-right: 1rem;
+    }
+    .bx-wrapper .bx-pager.bx-default-pager a{
+        width: 14px;
+        height: 14px;
+    }
+    .ctn__slider__home .bx-wrapper .bx-pager{
+        padding-bottom: 0.5rem;
+    }
+    .ctn__slider__home .slide__item{
+        background-size: 250px auto, 40px auto;
+    }
+    .list__products{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .list__products.sugarfree .title__list,
+    .list__products .title__list{
+        position: static;
+        width: 100%;
+        flex-direction: row;
+        margin-bottom: 2rem;
+        padding: 0;
+        background-image: none;
+        color: #c60969;
+        background-color: transparent;
+    }
+    .list__products.sugarfree .title__list{
+        color: #0076B9;
+    }
+    .list__products .title__list strong{
+        font-size: 1.5rem;
+    }
+    .list__products .title__list a{
+        display: none;
+    }
+    .list__products .inner__site{
+        padding-left: 0;
+    }
+    .list__products .wrap__card{
+        margin-bottom: 2rem;
+    }
+    .list__products .wrap__card .top__imageCard{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .ctn__bnr__sugarfree h3{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .ctn__bnr__sugarfree p{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    .ctn__home__recipes{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .ctn__home__recipes .tit__recipes{
+        font-size: 2rem;
+    }
+    
+}   
