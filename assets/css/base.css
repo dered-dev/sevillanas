@@ -216,6 +216,12 @@ footer .block__direction .icon__sev{
 }
 footer .block__sections a{
     line-height: 1.875em;
+    text-decoration: none;
+    transition: all linear .25s;
+}
+footer .block__sections a:hover{
+    text-decoration: underline;
+    color: #c60969;
 }
 .ctn__copy{
     border-top: 1px solid rgba(255,255,255,.3);
@@ -555,9 +561,18 @@ footer .block__sections a{
     font-size: .875rem;
 }
 
+.ctn__text__site{
+    margin-top: 72px;
+}
+
+
 /* Responsive */
 @media screen and (max-width: 1300px){
     .ctn__list__productos .list__products{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .content__text{
         padding-left: 2rem;
         padding-right: 2rem;
     }
@@ -742,5 +757,12 @@ footer .block__sections a{
     .inner__contact .row{
         margin-left: 0;
         margin-right: 0;
+    }
+    .content__text{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .ctn__text__site{
+        margin-top: 48px;
     }
 }
