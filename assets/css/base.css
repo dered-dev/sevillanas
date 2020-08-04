@@ -273,12 +273,30 @@ footer .block__sections a{
     font-weight: 600;
     border-radius: 4px;
     display: inline-block;
+    text-decoration: none;
+    transition: all linear .25s;
+}
+.btn__sev:hover{
+    text-decoration: none;
+    color: #fff;
 }
 
 .btn__sev.pink__btn{
     background-color: #EF548D;
 }
+.btn__sev.pink__btn:hover{
+    background-color: #c60969;
+}
 .btn__sev.dark__pink__btn{
+    background-color: #B52A69;
+}
+.btn__sev.dark__pink__btn:hover{
+    background-color: #c60969;
+}
+.btn__sev.normal__pink__btn{
+    background-color: #c60969;
+}
+.btn__sev.normal__pink__btn:hover{
     background-color: #B52A69;
 }
 .btn__sev.blue__btn{
@@ -291,6 +309,7 @@ footer .block__sections a{
     border-radius: 1rem;
     background-color: #EEE2EF;
     text-align: center;
+    position: relative;
 }
 .wrap__card .top__imageCard.orange{
     background-color: #F0C1B4;
@@ -317,9 +336,24 @@ footer .block__sections a{
 }
 .wrap__card .infoCard{
     justify-content: space-between;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 1.5rem;
+}
+.wrap__card .priceCard{
+    padding: 0 1rem 1rem;
+    font-size: 1.5rem;
 }
 
+.ctn__list__productos{
+    margin-top: 72px;
+}
+
+.color__pink {
+    color: #c60969;
+}
+
+.back__pink {
+    background-color: #c60969;
+}
 
 .br-theme-css-stars .br-widget {
     height: 28px;
@@ -467,12 +501,67 @@ footer .block__sections a{
     font-size: 0.875rem;
 }
 
+.wrap__card .weight__product{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    text-align: center;
+    line-height: 70px;
+    background-color: #fff;
+    transform: translateY(50%);
+    color: #c60969;
+}
+.wrap__card a{
+    text-decoration: none;
+    color: #000;
+}
 
+/* Header section */
 
+.header__section{
+    background-color: #c60969;
+    background-image: url('../img/icons/mask__triangle.png'), url('../img/icons/mask__flower.png');
+    background-size: 400px auto, auto 100%;
+    background-repeat: no-repeat;
+    background-position: 0 100%, 100% 0;
+}
 
+.header__section h1{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    font-weight: 700;
+}
+/* contacto */
 
+.ctn__contacto{
+    margin-top: 72px;
+}
+
+.ctn__contacto form input,
+.ctn__contacto form textarea{
+    border: 1px solid #000;
+}
+.ctn__contacto form label{
+    color: #000;
+    font-weight: 600;
+    font-size: .875rem;
+}
 
 /* Responsive */
+@media screen and (max-width: 1300px){
+    .ctn__list__productos .list__products{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
 @media screen and (max-width: 1200px){
     footer .inner__site,
     .header .inner__site{
@@ -602,7 +691,9 @@ footer .block__sections a{
         display: inline-block;
         width: 100%;
     }
-
+    .ctn__list__productos{
+        margin-top: 48px;
+    }
 }
 
 @media screen and (max-width: 640px){
@@ -627,5 +718,29 @@ footer .block__sections a{
     }
     .grid__recipes .card__recipe{
         margin-bottom: 2.5rem;
+    }
+    .header__section h1{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.5rem;
+    }
+    .header__section {
+        background-color: #c60969;
+        background-image: url(../img/icons/mask__triangle.png), url(../img/icons/mask__flower.png);
+        background-size: 200px auto, auto 100%;
+        background-repeat: no-repeat;
+        background-position: 0 100%, 100% 0;
+    }
+    .header__section h1{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin: 0;
+    }
+    .ctn__contacto{
+        margin-top: 48px;
+    }
+    .inner__contact .row{
+        margin-left: 0;
+        margin-right: 0;
     }
 }

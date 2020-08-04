@@ -1,0 +1,170 @@
+.ctn__historia{
+    margin-top: 72px;
+}
+.header__historia{
+    background-color: #c60969;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.header__historia h1{
+    color: rgba(238,84,141,.8);
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.header__historia h1 span,
+.header__historia h1 b{
+    display: block;
+}
+.header__historia h1 span{
+    font-size: 96px;
+}
+.header__historia h1 b{
+    font-size: 112px;
+    text-shadow: -3px 3px #fff;
+    color: #EF548D;
+}
+
+.header__historia .toggle__video{
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all linear .25s;
+    position: relative;
+}
+.header__historia .toggle__video:hover{
+    box-shadow: -10px 10px 20px #EF548D;
+    
+}
+.header__historia .toggle__video:after{
+    content: "";
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    width: 4rem;
+    height: 4rem;
+    background-image: url('../img/icons/icon__playhis.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 64px 64px;
+}
+
+.color__event{
+    background-color: #EEE2EF;
+}
+.white__event{
+    background-color: #ffffff;
+}
+.transparent__event{
+    background-color: transparent;
+}
+.gray__list__event{
+    background-color: #FAFBFC;
+}
+.list__historia__events{
+    margin-top: 4rem;
+}
+.list__event{
+    padding: 4rem;
+    border-radius: 1rem;
+    color: #000;
+    margin-bottom: 4rem;
+}
+.list__event .year__event {
+    font-size: 6rem;
+}
+
+.list__event .img__event img{
+    min-width: 92px;
+    min-height: 92px;
+    max-width: 92px;
+    max-height: 92px;
+}
+.list__event p{
+    font-size: 1.5rem;
+}
+
+.list__event .desc__event.med p{
+    font-size: 1.25rem;
+}
+.list__event .list__cert{
+    max-width: 400px;
+}
+.process__image{
+    transform: translateY(-50%);
+    margin-bottom: -4rem;
+}
+.list__historia__events.gray__list__event{
+    margin-top: 320px;
+}
+
+@media screen and (max-width: 1280px){
+    .header__historia .inner__site{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .list__historia__events{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .list__event {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .list__event .desc__event.med li,
+    .list__event .desc__event.med p,
+    .list__event p{
+        font-size: 1rem;
+    }
+    .header__historia h1{
+        font-size: 40px;
+    }
+    .header__historia h1 span{
+        font-size: 60px;
+    }
+    .header__historia h1 b{
+        font-size: 72px;
+    }
+}
+@media screen and (max-width: 640px){
+    .ctn__historia{
+        margin-top: 48px;
+    }
+    .header__historia{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .header__historia h1{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .list__event{
+        flex-direction: column;
+        text-align: left;
+        margin-bottom: 1.5rem;
+    }
+    .list__historia__events.gray__list__event{
+        margin-top: 0;
+    }
+    .process__image{
+        transform: none;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .list__event .list__cert{
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+    .list__event ul{
+        text-align: left;
+    }
+    .list__event .img__event img{
+        margin-bottom: 2rem;
+    }
+}
