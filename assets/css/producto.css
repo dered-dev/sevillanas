@@ -174,13 +174,26 @@
 }
 
 .wrap__quantity{
-    max-width: 210px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.wrap__quantity input{
+.wrap__quantity input[type="number"]{
     border: 1px solid #B52A69;
+    width: 3rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+.wrap__quantity input[type="button"]{
+    background-color: #fff;
+    border: none;
+    font-weight: 700;
+    outline: none;
+}
+.wrap__quantity input[type="button"]:hover{
+    color: #B52A69;
+   
+    border: none;
 }
 .wrap__quantity .btn-number{
     color: #000;

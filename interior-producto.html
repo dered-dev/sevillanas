@@ -98,7 +98,7 @@
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="wrap__list__products pl-5 pr-5">
-                            <h1 class="tit__product font-weight-bold color__pink">Glorias</h1>
+                            <h1 class="tit__product font-weight-bold color__pink mb-4">Glorias</h1>
                             <div class="list__products">
                                 <label class="container__label">
                                     <span class="d-flex justify-content-between"><span>Glorias 600g</span> <b>$219.00</b></span>
@@ -148,19 +148,11 @@
                             </div>
 
                             <div class="wrap__quantity mt-5 mb-5">
-                                <strong>Cantidad:</strong>
-                                <div class="input-group">
-                                    <span class="input-group-btn">
-                                        <button type="button" class="btn btn-default btn-number">
-                                            <span class="glyphicon glyphicon-minus">-</span>
-                                        </button>
-                                    </span>
-                                    <input type="text" name="quant" class="form-control input-number text-center" value="1">
-                                    <span class="input-group-btn">
-                                        <button type="button" class="btn btn-default btn-number">
-                                            <span class="glyphicon glyphicon-plus">+</span>
-                                        </button>
-                                    </span>
+                                <strong class="mr-3">Cantidad:</strong>
+                                <div class="input-group d-flex">
+                                    <input type="button" value="-" class="button-minus" data-field="quantity">
+                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="button" value="+" class="button-plus" data-field="quantity">
                                 </div>
                             </div>
                             <div class="text-center text-md-left">
