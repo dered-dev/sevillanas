@@ -128,6 +128,15 @@ img{
 .icon__sev.tw{
     background-image: url('../img/icons/icon__tw.svg');
 }
+.icon__sev.fbpink{
+    background-image: url('../img/icons/icon__fbpink.svg');
+}
+.icon__sev.twpink{
+    background-image: url('../img/icons/icon__twpink.svg');
+}
+.icon__sev.print{
+    background-image: url('../img/icons/icon__print.svg');
+}
 .icon__sev.in{
     background-image: url('../img/icons/icon__inst.svg');
 }
@@ -146,6 +155,9 @@ img{
 }
 .icon__sev.camera{
     background-image: url('../img/icons/icon__camera.svg');
+}
+.icon__sev.playrecipe{
+    background-image: url('../img/icons/play-button.svg');
 }
 
 .soc__options ul{
@@ -436,6 +448,10 @@ footer .block__sections a:hover{
     background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.79) 99%,rgba(0,0,0,.8).8100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
+.card__recipe.large.video .wrap__img:after{
+    top: 0;
+    height: 100%;
+}
 .card__recipe.large .wrap__info__recipe{
     width: 40%;
     padding: 2rem;
@@ -461,6 +477,24 @@ footer .block__sections a:hover{
     z-index: 2;
 }
 
+.card__recipe.large .wrap__img .playrecipe{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    transition: all linear .25s;
+}
+.card__recipe.large .wrap__img:hover .playrecipe{
+    transform: scale(1.2,1.2);
+}
 .grid__recipes .card__recipe .wrap__img{
     min-height: 380px;
     position: relative;
@@ -505,6 +539,35 @@ footer .block__sections a:hover{
 }
 .grid__recipes .card__recipe .desc__recipe{
     font-size: 0.875rem;
+}
+.ctn__ingredients ul{
+    list-style: none;
+    padding-left: 0;
+}
+.ctn__ingredients ul li{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+.ctn__ingredients ul li::before {
+    content: "";
+    display: inline-block;
+    border: 2px solid #EF548D;
+    width: .75em;
+    height: .75rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.ctn__preparation ol{
+    padding-left: 1rem;
+}
+.ctn__preparation ol li{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .wrap__card .weight__product{
@@ -563,6 +626,9 @@ footer .block__sections a:hover{
 
 .ctn__text__site{
     margin-top: 72px;
+}
+.ctn__home__recipes.interior{
+    background-color: #F2EDF2;
 }
 
 

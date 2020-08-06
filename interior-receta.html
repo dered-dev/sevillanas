@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recetas || Las sevillanas</title>
+    <title>Receta || Las sevillanas</title>
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -54,38 +54,81 @@
     </header>
 
 
-        <div class="ctn__home__recipes mt-5">
+        <div class="ctn__home__recipes interior mt-5">
             <div class="inner__site">
-                <h3 class="tit__recipes">Nuestras recetas</h3>
                 <div class="row">
                     <div class="col-12">
-                        <a href="interior-receta.html">
-                            <div class="card__recipe large">
-                                <div class="wrap__img" style="background-image: url('/assets/img/recetas/paletas.png');">
-                                    <span class="icon__sev camera"></span>
+                        <div class="card__recipe large video">
+                            <div class="wrap__img" style="background-image: url('/assets/img/recetas/paletas.png');">
+                                <a class="icon__sev playrecipe"></a>
+                            </div>
+                            <div class="wrap__info__recipe">
+                                <div class="wrap__rating">
+                                    <select class="select__rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                      
                                 </div>
-                                <div class="wrap__info__recipe">
-                                    <div class="wrap__rating">
-                                        <select class="select__rating">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                        </select>
-                                        
+                                <h5 class="type__recipe">Paletas  de cajeta</h5>
+                                <p class="cat"><span>Snack</span></p>
+                                <div class="desc__recipe"><p>¿Por qué no invitas a tus niños a preparar estas paletas con Glorias SugarFree? ¡Es una deliciosa forma de consentirlos y quitarse el calor!</p></div>
+                                <div class="d-flex justify-content-between flex-sm-column flex-md-row mt-5">
+                                    <div class="color__pink"><b>2</b> min</div>
+                                    <div class="color__pink"><b>300</b> cal</div>
+                                    <div class="color__pink">
+                                        <b>Compartir</b>
+                                        <a href=""><span class="icon__sev fbpink"></span></a>
+                                        <a href=""><span class="icon__sev twpink"></span></a>
                                     </div>
-                                    <h5 class="type__recipe">Paletas  de cajeta</h5>
-                                    <p class="cat"><span>Snack</span></p>
-                                    <div class="desc__recipe"><p>¿Por qué no invitas a tus niños a preparar estas paletas con Glorias SugarFree? ¡Es una deliciosa forma de consentirlos y quitarse el calor!</p></div>
-                                    
+                                    <div>
+                                        <a href=""><span class="icon__sev print"></span></a>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
+                        </div>
 
                     </div>
                 </div>
+                <div class="row mt-5 mb-2">
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="card shadow-sm p-3 ctn__ingredients">
+                            <h3 class="color__pink font-weight-bolder mb-4">Ingredientes</h3>
+                            <ul>
+                                <li>1 1/2 tazas de cajeta</li>
+                                <li>1 lata de leche condensada, (para el flan)</li>
+                                <li>1 lata de leche evaporada, (para el flan)</li>
+                                <li>1 cucharadita de vainilla líquida, (para el flan)</li>
+                                <li>3 huevos, (para el pastel de chocolate)</li>
+                                <li>3/4 tazas de azúcar, (para el pastel de chocolate)</li>
+                                <li>1 cucharada de vainilla líquida, (para el pastel de chocolate)</li>
+                                <li>1/2 tazas de harina, (para el pastel de chocolate)</li>
+                                <li>2 cucharaditas de cocoa, (para el pastel de chocolate)</li>
+                                <li>1 cucharadita de polvo para hornear, (para el pastel de chocolate)</li>
+                                <li>1/4 tazas de aceite canola, (para el pastel de chocolate)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="card shadow-sm p-3 ctn__preparation">
+                            <h3 class="color__pink font-weight-bolder mb-4">Preparación</h3>
+                            <ol>
+                                <li>Precalienta el horno a 180°C.</li>
+                                <li>Vierte en un molde de 18cm la cajeta para hacer una base. Reserva.</li>
+                                <li>Para el flan, licúa todos los ingredientes. Reserva.</li>
+                                <li>Para el pastel, bate los huevos con el azúcar y la vainilla hasta que espese.</li>
+                                <li>Mezcla los polvos en un bowl e incorpora a la mezcla de huevo alternando con el aceite en forma de hilo.</li>
+                                <li>Vierte la mezcla del pastel en el molde. Enseguida, agrega la mezcla del flan con ayuda de una cuchara para que no se mezcle.</li>
+                                <li>Coloca el molde dentro de un recipiente con agua, tapa con papel aluminio y hornea a baño maría una hora y media o hasta que esté cocido.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
                 <div class="grid__recipes mb-5">
+                    <h2 class="color__pink font-weight-bold text-center mt-5">Recetas relacionadas</h2>
                     <div class="row mt-5">
                         <div class="col-12 col-md-4">
                             <div class="card__recipe">
