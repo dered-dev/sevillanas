@@ -7,9 +7,10 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="assets/css/base.css">
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/producto.css">
 </head>
 <body>
 
@@ -52,22 +53,143 @@
             </div>
         </div>
     </header>
+    <div class="ctn__interior__producto pt-3 pt-md-5">
+        <div class="inner__site">
+            <div class="head__producto">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="slider-product">
+                            <div>
+                                <img src="assets/img/producto/web-Glorias-600g.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/img/producto/Glorias-30-pzs_Display.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/img/producto/web-Glorias_300g.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/img/producto/web-Glorias-600g.png" alt="">
+                            </div>
+                            <div>
+                                <img src="assets/img/producto/Glorias-30-pzs_Display.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ctn__slider-navproduct">
+                            <div class="slider-navproduct">
+                                <div>
+                                    <img src="assets/img/producto/web-Glorias-600g.png" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/img/producto/Glorias-30-pzs_Display.png" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/img/producto/web-Glorias_300g.png" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/img/producto/web-Glorias-600g.png" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/img/producto/Glorias-30-pzs_Display.png" alt="">
+                                </div>
+                            </div>
+                        </div>
 
-    <div class="ctn__list__productos">
-        <div class="header__section">
-            <div class="inner__site">
-                <h1>Nuestros productos</h1>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="wrap__list__products pl-5 pr-5">
+                            <h1 class="tit__product font-weight-bold color__pink">Glorias</h1>
+                            <div class="list__products">
+                                <label class="container__label">
+                                    <span class="d-flex justify-content-between"><span>Glorias 600g</span> <b>$219.00</b></span>
+                                    <input type="radio" name="input__producto" checked>
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container__label">
+                                    
+                                    <span class="d-flex justify-content-between"><span>Glorias Two Pack 40g</span> <b>$189.00</b></span>
+                                    <input type="radio" name="input__producto">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container__label">
+                                    <span class="d-flex justify-content-between"><span>Glorias 200g</span> <b>$200.00</b></span>
+                                    <input type="radio" name="input__producto">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container__label">
+                                    <span class="d-flex justify-content-between"><span>Glorias 300g</span> <b>$230.00</b></span>
+                                    <input type="radio" name="input__producto">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container__label">
+                                    
+                                    <span class="d-flex justify-content-between"><span>Gloria untable</span> <b>$249.00</b></span>
+                                    <input type="radio" name="input__producto">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container__label">
+                                    
+                                    <span class="d-flex justify-content-between"><span>Natillas 900g</span> <b>$189.00</b></span>
+                                    <input type="radio" name="input__producto">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container__label">
+                                    
+                                    <span class="d-flex justify-content-between"><span>Display Glorias 20 pzs</span> <b>$329.00</b></span>
+                                    <input type="radio" name="input__producto">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container__label">
+                                    
+                                    <span class="d-flex justify-content-between"><span>Glorias 150g</span> <b>$129.00</b></span>
+                                    <input type="radio" name="input__producto">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+
+                            <div class="wrap__quantity mt-5 mb-5">
+                                <strong>Cantidad:</strong>
+                                <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-default btn-number">
+                                            <span class="glyphicon glyphicon-minus">-</span>
+                                        </button>
+                                    </span>
+                                    <input type="text" name="quant" class="form-control input-number text-center" value="1">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-default btn-number">
+                                            <span class="glyphicon glyphicon-plus">+</span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="text-center text-md-left">
+                                <button type="button" class="btn__sev normal__pink__btn mr-3">Comprar</button>
+                                <button type="button" class="btn__sev outline__pink__btn">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="description__producto mt-5">
+                <h4 class="font-weight-bold color__pink mb-3 mt-0">Descripción</h4>
+                <p>Date un día de GLORIA disfrutando uno de los mejores dulces mexicanos; tan tradicionales que se siguen elaborando de manera artesanal con ingredientes 100% naturales. ¡Pura tradición!</p>
             </div>
         </div>
+    </div>
+
+    <div class="ctn__list__productos">   
         <!-- procutos -->
         <div class="inner__site">
             <div class="list__products">
                 <div class="row">
                     <div class="col-12">
+                        <h4 class="font-weight-bold color__pink mt-2 mb-5">Quienes vieron este producto también compraron</h4>
                         <div class="row">
-                            <div class="col-12 col-md-4 col-lg-3 mb-1 mb-md-5">
+                            <div class="col-12 col-md-4 col-lg-3 mb-5">
                                 <div class="wrap__card">
-                                    <a href="interior-producto.html">
+                                    <a href="">
                                         <div class="top__imageCard">
                                             <img src="/assets/img/productos/web-Glorias_300g.png" alt="Glorias 300g">
                                             <span class="weight__product"><b>300</b>g</span>
@@ -81,9 +203,9 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4 col-lg-3 mb-1 mb-md-5">
+                            <div class="col-12 col-md-4 col-lg-3 mb-5">
                                 <div class="wrap__card">
-                                    <a href="interior-producto.html">
+                                    <a href="">
                                         <div class="top__imageCard orange">
                                             <img src="/assets/img/productos/web-obleas.png" alt="Glorias 300g">
                                             <span class="weight__product"><b>300</b>g</span>
@@ -97,9 +219,9 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4 col-lg-3 mb-1 mb-md-5">
+                            <div class="col-12 col-md-4 col-lg-3 mb-5">
                                 <div class="wrap__card">
-                                    <a href="interior-producto.html">
+                                    <a href="">
                                         <div class="top__imageCard red">
                                             <img src="/assets/img/productos/web-Rollitos-de-guayaba-300g.png" alt="Glorias 300g">
                                             <span class="weight__product"><b>300</b>g</span>
@@ -113,9 +235,9 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4 col-lg-3 mb-1 mb-md-5">
+                            <div class="col-12 col-md-4 col-lg-3 mb-5">
                                 <div class="wrap__card">
-                                    <a href="interior-producto.html">
+                                    <a href="">
                                         <div class="top__imageCard">
                                             <img src="/assets/img/productos/web-Glorias_300g.png" alt="Glorias 300g">
                                             <span class="weight__product"><b>300</b>g</span>
@@ -129,136 +251,6 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-4 col-lg-3 mb-1 mb-md-5">
-                                <div class="wrap__card">
-                                    <a href="interior-producto.html">
-                                        <div class="top__imageCard orange">
-                                            <img src="/assets/img/productos/web-obleas.png" alt="Glorias 300g">
-                                            <span class="weight__product"><b>300</b>g</span>
-                                        </div>
-                                        <div class="infoCard d-flex">
-                                            <strong class="color__pink">Glorias</strong>
-                                        </div>
-                                        <div class="priceCard d-flex">
-                                            <strong>$ 349.00</strong>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-lg-3 mb-1 mb-md-5">
-                                <div class="wrap__card">
-                                    <a href="interior-producto.html">
-                                        <div class="top__imageCard red">
-                                            <img src="/assets/img/productos/web-Rollitos-de-guayaba-300g.png" alt="Glorias 300g">
-                                            <span class="weight__product"><b>300</b>g</span>
-                                        </div>
-                                        <div class="infoCard d-flex">
-                                            <strong class="color__pink">Glorias</strong>
-                                        </div>
-                                        <div class="priceCard d-flex">
-                                            <strong>$ 349.00</strong>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-lg-3 mb-1 mb-md-5">
-                                <div class="wrap__card">
-                                    <a href="interior-producto.html">
-                                        <div class="top__imageCard">
-                                            <img src="/assets/img/productos/web-Glorias_300g.png" alt="Glorias 300g">
-                                            <span class="weight__product"><b>300</b>g</span>
-                                        </div>
-                                        <div class="infoCard d-flex">
-                                            <strong class="color__pink">Glorias</strong>
-                                        </div>
-                                        <div class="priceCard d-flex">
-                                            <strong>$ 349.00</strong>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-lg-3 mb-1 mb-md-5">
-                                <div class="wrap__card">
-                                    <a href="interior-producto.html">
-                                        <div class="top__imageCard orange">
-                                            <img src="/assets/img/productos/web-obleas.png" alt="Glorias 300g">
-                                            <span class="weight__product"><b>300</b>g</span>
-                                        </div>
-                                        <div class="infoCard d-flex">
-                                            <strong class="color__pink">Glorias</strong>
-                                        </div>
-                                        <div class="priceCard d-flex">
-                                            <strong>$ 349.00</strong>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-lg-3 mb-1 mb-md-5">
-                                <div class="wrap__card">
-                                    <a href="interior-producto.html">
-                                        <div class="top__imageCard red">
-                                            <img src="/assets/img/productos/web-Rollitos-de-guayaba-300g.png" alt="Glorias 300g">
-                                            <span class="weight__product"><b>300</b>g</span>
-                                        </div>
-                                        <div class="infoCard d-flex">
-                                            <strong class="color__pink">Glorias</strong>
-                                        </div>
-                                        <div class="priceCard d-flex">
-                                            <strong>$ 349.00</strong>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-lg-3 mb-1 mb-md-5">
-                                <div class="wrap__card">
-                                    <a href="interior-producto.html">
-                                        <div class="top__imageCard">
-                                            <img src="/assets/img/productos/web-Glorias_300g.png" alt="Glorias 300g">
-                                            <span class="weight__product"><b>300</b>g</span>
-                                        </div>
-                                        <div class="infoCard d-flex">
-                                            <strong class="color__pink">Glorias</strong>
-                                        </div>
-                                        <div class="priceCard d-flex">
-                                            <strong>$ 349.00</strong>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-lg-3 mb-1 mb-md-5">
-                                <div class="wrap__card">
-                                    <a href="interior-producto.html">
-                                        <div class="top__imageCard orange">
-                                            <img src="/assets/img/productos/web-obleas.png" alt="Glorias 300g">
-                                            <span class="weight__product"><b>300</b>g</span>
-                                        </div>
-                                        <div class="infoCard d-flex">
-                                            <strong class="color__pink">Glorias</strong>
-                                        </div>
-                                        <div class="priceCard d-flex">
-                                            <strong>$ 349.00</strong>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-lg-3 mb-1 mb-md-5">
-                                <div class="wrap__card">
-                                    <a href="interior-producto.html">
-                                        <div class="top__imageCard red">
-                                            <img src="/assets/img/productos/web-Rollitos-de-guayaba-300g.png" alt="Glorias 300g">
-                                            <span class="weight__product"><b>300</b>g</span>
-                                        </div>
-                                        <div class="infoCard d-flex">
-                                            <strong class="color__pink">Glorias</strong>
-                                        </div>
-                                        <div class="priceCard d-flex">
-                                            <strong>$ 349.00</strong>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            
-                            
                         </div>
                     </div>
                 </div>
@@ -266,7 +258,6 @@
         </div>
         
     </div>
-
 
     <footer>
         <div class="inner__site">
@@ -327,9 +318,8 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <script src="assets/js/jquery.barrating.min.js"></script>
     <script src="assets/js/base.js"></script>
-    <script src="assets/js/home.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/producto.js"></script>
 </body>
 </html>

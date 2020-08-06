@@ -301,24 +301,42 @@ footer .block__sections a:hover{
 
 .btn__sev.pink__btn{
     background-color: #EF548D;
+    border: 2px solid #EF548D;
 }
 .btn__sev.pink__btn:hover{
     background-color: #c60969;
+    border: 2px solid #c60969;
 }
 .btn__sev.dark__pink__btn{
     background-color: #B52A69;
+    border: 2px solid #B52A69;
 }
 .btn__sev.dark__pink__btn:hover{
     background-color: #c60969;
+    border: 2px solid #c60969;
 }
 .btn__sev.normal__pink__btn{
     background-color: #c60969;
+    border: 2px solid #c60969;
 }
 .btn__sev.normal__pink__btn:hover{
     background-color: #B52A69;
+    border: 2px solid #B52A69;
 }
 .btn__sev.blue__btn{
     background-color: #0499D6;
+    border: 2px solid #0499D6;
+}
+
+.btn__sev.outline__pink__btn{
+    background-color: transparent;
+    border: 2px solid #c60969;
+    color: #c60969;
+}
+.btn__sev.outline__pink__btn:hover{
+    background-color: #B52A69;
+    border: 2px solid #c60969;
+    color: #fff;
 }
 
 /* cards products */
@@ -469,6 +487,7 @@ footer .block__sections a:hover{
 }
 .card__recipe.large .wrap__info__recipe .desc__recipe{
     font-size: 1rem;
+    color: #000000;
 }
 .card__recipe.large .wrap__img span{
     position: absolute;
@@ -539,6 +558,7 @@ footer .block__sections a:hover{
 }
 .grid__recipes .card__recipe .desc__recipe{
     font-size: 0.875rem;
+    color: #000000;
 }
 .ctn__ingredients ul{
     list-style: none;
