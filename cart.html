@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras || Las sevillanas</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/shop.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="inner__site">
+            <button class="close__menu">
+                <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                    <path
+                            class="line top"
+                            d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                    <path
+                            class="line middle"
+                            d="m 30,50 h 40" />
+                    <path
+                        class="line bottom"
+                        d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                </svg>                  
+            </button>
+            <a href="/"><img src="/assets/img/icons/logo-sevillanas.png" alt="Logo las sevillanas" class="logo__header"></a>
+            <nav>
+                <li><a href="tienda.html" class="item__menu--link">Tienda</a></li>
+                <li><a href="recetas.html" class="item__menu--link">Recetas</a></li>
+                <li><a href="historia.html" class="item__menu--link">Historia</a></li>
+                <li><a href="contacto.html" class="item__menu--link">Contacto</a></li>
+                <li class="trigger__cart">
+
+                    <a href="" class="item__menu--link shop__cart">
+                        <span class="total__item__shop">4</span>
+                        <span class="icon__sev shop"></span>
+                    </a>
+
+                    <div class="ctn__header__cart">
+                        <div class="inner__header__cart">
+                            <strong class="title__header__cart">Carrito de compras</strong>
+                            <ul class="list__header__cart">
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/producto/web-Glorias_300g-thumb.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Glorias</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity mt-5 mb-5">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/producto/web-Glorias_300g-thumb.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Glorias</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity mt-5 mb-5">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/producto/web-Glorias_300g-thumb.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Glorias</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity mt-5 mb-5">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="total__header__cart ">
+                            <div class="row mb-2 row d-flex justify-content-between">
+                                <b>Total</b> 
+                                <b class="total__number__cart">$269.87</b>
+                            </div>
+                            <div class="row d-flex justify-content-between">
+                                <a href="" class="btn__sev outline__pink__btn">Ver carrito</a>
+                                <a href="pago.html" class="btn__sev normal__pink__btn">Pagar</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+            </nav>
+            <div class="soc__options">
+                <ul>
+                    <li><a href=""><span class="icon__sev yt"></span></a></li>
+                    <li><a href=""><span class="icon__sev fb"></span></a></li>
+                    <li><a href=""><span class="icon__sev tw"></span></a></li>
+                    <li><a href=""><span class="icon__sev in"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="ctn__cart__resume">
+        <div class="inner__site pt-2 pt-md-5">
+            <div class="breadcrumb__site">
+                <a href="/"><span class="icon__sev home"></span></a> <span class="divider">/</span>
+                <a href="/tienda.html">Tienda</a> <span class="divider">/</span>
+                <a href="#" class="color__pink">Carrito de compras</a>
+            </div>
+
+            <div class="title__shop mt-3 mt-md-5">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 ">
+                        <h1>Carrito de compras</h1>
+                    </div>
+                    <div class="col-12 col-md-6 text-left text-md-right">
+                        <div class="shop__location">
+                            <a href=""><span class="icon__sev shop__active"></span></a>
+                            <div class="divider__location"></div>
+                            <a href=""><span class="icon__sev normal__payment"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table__cart mt-3 mt-md-5">
+                <div class="row align-items-center row__table__item mb-4 d-none d-sm-flex">
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <span>Producto</span>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <span>Presentación</span>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <span>Cantidad</span>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <span>Precio</span>
+                    </div>
+                </div>
+                <div class="row align-items-center row__table__item mb-4">
+                    <div class="col-6 col-md-3 text-center text-md-left table__item__product">
+                        <img src="assets/img/producto/web-Glorias_300g-thumb.png" alt="" class="table__item__img mr-2">
+                        <strong>Glorias</strong>
+                    </div>
+                    <div class="col-6 col-md-3 text-center text-md-left">
+                        <span>600g</span>
+                    </div>
+                    <div class="col-6 col-md-3 text-center text-md-left ">
+                        <div class="wrap__quantity black mt-2 mb-2">
+                            <div class="input-group d-flex">
+                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 text-center text-md-left wrap__btn__remove">
+                        <div class="row">
+                            <div class="col-12 col-md-6"><strong>$89.99</strong></div>
+                            <div class="col-12 col-md-6 wbtn__remove__product text-center"><button class="btn__remove__product"></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center row__table__item mb-4">
+                    <div class="col-6 col-md-3 text-center text-md-left table__item__product">
+                        <img src="assets/img/producto/Glorias-30-pzs_Display-thumb.png" alt="" class="table__item__img mr-2">
+                        <strong>Glorias</strong>
+                    </div>
+                    <div class="col-6 col-md-3 text-center text-md-left">
+                        <span>display</span>
+                    </div>
+                    <div class="col-6 col-md-3 text-center text-md-left ">
+                        <div class="wrap__quantity black mt-2 mb-2">
+                            <div class="input-group d-flex">
+                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 text-center text-md-left wrap__btn__remove">
+                        <div class="row">
+                            <div class="col-12 col-md-6"><strong>$89.99</strong></div>
+                            <div class="col-12 col-md-6 wbtn__remove__product text-center"><button class="btn__remove__product"></button></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider__cart"></div>
+
+                <div class="row mt-5 mb-5 flex-column-reverse flex-sm-row">
+                    <div class="col-12 col-md-7">
+                        <a href="tienda.html" class="btn__sev outline__pink__btn">Seguir comprando</a>
+                    </div>
+                    <div class="col-12 col-md-5 d-flex justify-content-between align-items-center mb-5 mb-md-0">
+                        <b>Total</b>
+                        <b class="total__table__cart">$159,98</b>
+                        <a href="pago.html" class="btn__sev normal__pink__btn">Pagar</a>
+                    </div>
+                </div>
+                
+                  
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="inner__site">
+            <div class="row">
+                
+                <div class="col-12 col-md-4 block__sections">
+                    <ul>
+                        <li><a href="tienda.html">Tienda</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="privacidad.html">Aviso de privacidad</a></li>
+                        <li><a href="terminos-condiciones.html">Términos y condiciones</a></li>
+                        <li><a href="privacidad.html">Aviso de Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 block__direction">
+                    <p><strong>Contáctanos</strong></p>
+                    <p>
+                        <span class="icon__sev marker"></span>
+                        Carretera Central km 612 Matehuala, S.L.P. CP 78700
+                    </p>
+                    <p>
+                        <span class="icon__sev tel"></span>
+                        (01) 488 882 1491
+                    </p>
+                    <p>
+                        <span class="icon__sev mail"></span>
+                        <a href="mailto:comentarios@lassevillanas.com.mx">comentarios@lassevillanas.com.mx</a>
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="ctn__form__news">
+                        <p><strong>Suscríbete a nuestro Newsletter</strong></p>
+                        <form action="" method="POST" id="form__newsletter">
+                            <input type="text" name="mail__newsletter">
+                            <button type="button" class="send__news"></button>
+                        </form>
+                    </div>
+                    <ul class="ctn__foot__social">
+                        <p><strong>Síguenos</strong></p>
+                        <li><a href=""><span class="icon__sev yt"></span></a></li>
+                        <li><a href=""><span class="icon__sev fb"></span></a></li>
+                        <li><a href=""><span class="icon__sev tw"></span></a></li>
+                        <li><a href=""><span class="icon__sev in"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center ctn__copy">
+                    <p>© Copyright <script>document.write(new Date().getFullYear())</script> Las Sevillanas</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- assets Js -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="assets/js/base.js"></script>
+</body>
+</html>

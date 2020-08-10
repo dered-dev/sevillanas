@@ -35,12 +35,82 @@
                 <li><a href="recetas.html" class="item__menu--link">Recetas</a></li>
                 <li><a href="historia.html" class="item__menu--link">Historia</a></li>
                 <li><a href="contacto.html" class="item__menu--link">Contacto</a></li>
-                <li>
-                    <a href="" class="item__menu--link shop__cart">
+                <li class="trigger__cart">
+
+                    <a href="" class="item__menu--link shop__cart ">
                         <span class="total__item__shop">4</span>
                         <span class="icon__sev shop"></span>
-
                     </a>
+
+                    <div class="ctn__header__cart">
+                        <div class="inner__header__cart">
+                            <strong class="title__header__cart">Carrito de compras</strong>
+                            <ul class="list__header__cart">
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/producto/web-Glorias_300g-thumb.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Glorias</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity mt-5 mb-5">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/producto/web-Glorias_300g-thumb.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Glorias</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity mt-5 mb-5">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                                <li class="item__header__cart">
+                                    <div class="wrap__img">
+                                        <img src="assets/img/producto/web-Glorias_300g-thumb.png" alt="">
+                                    </div>
+                                    <div class="div__name__price">
+                                        <p><strong>Glorias</strong> 600g</p>
+                                        <p><b>$89.99</b></p>
+                                        <div class="wrap__quantity mt-5 mb-5">
+                                            <div class="input-group d-flex">
+                                                <input type="button" value="-" class="button-minus" data-field="quantity">
+                                                <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                                <input type="button" value="+" class="button-plus" data-field="quantity">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn__close__product"></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="total__header__cart ">
+                            <div class="row mb-2 row d-flex justify-content-between">
+                                <b>Total</b> 
+                                <b class="total__number__cart">$269.87</b>
+                            </div>
+                            <div class="row d-flex justify-content-between">
+                                <a href="cart.html" class="btn__sev outline__pink__btn">Ver carrito</a>
+                                <a href="" class="btn__sev normal__pink__btn">Pagar</a>
+                            </div>
+
+                        </div>
+                    </div>
                 </li>
             </nav>
             <div class="soc__options">
@@ -53,6 +123,7 @@
             </div>
         </div>
     </header>
+
     <div class="ctn__interior__producto pt-3 pt-md-5">
         <div class="inner__site">
             <div class="head__producto">
@@ -81,7 +152,7 @@
                                     <img src="assets/img/producto/web-Glorias-600g.png" alt="">
                                 </div>
                                 <div>
-                                    <img src="assets/img/producto/Glorias-30-pzs_Display.png" alt="">
+                                    <img src="assets/img/producto/Glorias-30-pzs_Display-thumb.png" alt="">
                                 </div>
                                 <div>
                                     <img src="assets/img/producto/web-Glorias_300g.png" alt="">
@@ -90,7 +161,7 @@
                                     <img src="assets/img/producto/web-Glorias-600g.png" alt="">
                                 </div>
                                 <div>
-                                    <img src="assets/img/producto/Glorias-30-pzs_Display.png" alt="">
+                                    <img src="assets/img/producto/Glorias-30-pzs_Display-thumb.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -147,20 +218,20 @@
                                 </label>
                             </div>
 
-                            <div class="wrap__quantity mt-5 mb-5">
+                            <div class="wrap__quantity mt-5 mb-5 black">
                                 <strong class="mr-3">Cantidad:</strong>
                                 <div class="input-group d-flex">
                                     <input type="button" value="-" class="button-minus" data-field="quantity">
-                                    <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                                    <input type="text" step="1" max="" value="1" name="quantity" class="quantity-field">
                                     <input type="button" value="+" class="button-plus" data-field="quantity">
                                 </div>
                             </div>
                             <div class="text-center text-md-left">
-                                <button type="button" class="btn__sev normal__pink__btn mr-3">Comprar</button>
-                                <button type="button" class="btn__sev outline__pink__btn">Comprar</button>
+                                <a href="#" class="btn__sev outline__pink__btn">Agregar al carrito</a>
+                                <a href="pago.html" class="btn__sev normal__pink__btn mr-3">Comprar</a>
                             </div>
                         </div>
-                    </div>
+                    </div>a
                 </div>
             </div>
 
