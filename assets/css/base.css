@@ -509,6 +509,7 @@ footer .block__sections a:hover{
 .btn__sev.pink__btn:hover{
     background-color: #c60969;
     border: 2px solid #c60969;
+    box-shadow: 0 4px 10px rgba(204, 158, 158, 0.5);
 }
 .btn__sev.dark__pink__btn{
     background-color: #B52A69;
@@ -517,6 +518,8 @@ footer .block__sections a:hover{
 .btn__sev.dark__pink__btn:hover{
     background-color: #c60969;
     border: 2px solid #c60969;
+    box-shadow: 0 4px 10px rgba(204, 158, 158, 0.5);
+    
 }
 .btn__sev.normal__pink__btn{
     background-color: #c60969;
@@ -525,10 +528,16 @@ footer .block__sections a:hover{
 .btn__sev.normal__pink__btn:hover{
     background-color: #B52A69;
     border: 2px solid #B52A69;
+    box-shadow: 0 4px 10px rgba(204, 158, 158, 0.5);
 }
 .btn__sev.blue__btn{
     background-color: #0499D6;
     border: 2px solid #0499D6;
+}
+.btn__sev.blue__btn:hover{
+    background-color: #0499D6;
+    border: 2px solid #0499D6;
+    box-shadow: 0 4px 10px rgba(204, 158, 158, 0.3);
 }
 
 .btn__sev.outline__pink__btn{

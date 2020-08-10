@@ -121,6 +121,10 @@
 .list__products.sugarfree .wrap__card .infoCard{
     color: #0076B9;
 }
+a.link__wrap{
+    text-decoration: none;
+    color: inherit;
+}
 
 .ctn__bnr__sugarfree{
     background-color: #90DFE4;
